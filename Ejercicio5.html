@@ -1,0 +1,63 @@
+<!--
+    Ejercicio 5. Formularios. Crea una página con un formulario de contacto, donde se pida: 
+    Nombre, Apellidos, Dirección, Teléfono, e-mail y un segundo bloque que pida los datos del trabajo. 
+    El formulario tiene que tener sus botones de envío y borrado, y se debe enviar por e-mail haciendo uso de mailto.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+
+    <form action="">
+        
+        <Fieldset>
+            <legend>Información personal</legend>
+
+            <label for="">Nombre</label>
+            <input type="text" name="Nombre" size="50" maxlength="20">
+            <br>
+
+            <label for="">Apellidos</label>
+            <input type="text" name="Apellidos" size="50" maxlength="50">
+            <br>
+
+            <label for="">Dirección</label>
+            <input type="text" name="Dirección" size="50" maxlength="200">
+            <br>
+
+            <label for="">Teléfono</label>
+            <input type="tel" name="Teléfono" size="50" maxlength="14">
+            <br>
+
+            <label for="">mail</label>
+            <input type="email" name="mail" size="50" maxlength="150">
+            <br>
+
+        </Fieldset>
+
+        <fieldset>
+            <legend>Datos del trabajo</legend>
+
+            <label for="">Empresa</label>
+            <input type="text" name="Empresa" size="50" maxlength="150">
+            <br>
+
+            <label for="">Numero de empleado</label>
+            <input type="number" name="empleado" size="50" maxlength="150">
+            <br>
+
+        </fieldset>
+
+        <input type="submit" value="enviar" >
+
+        <input type="reset" value="borrar">
+
+    </form>
+
+</body>
+</html>
